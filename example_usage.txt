@@ -1,0 +1,7 @@
+Output to stdin:
+
+sudo ./dpdk-testpmd -l 0-1 -n 4 --vdev 'net_pcap0,rx_pcap=/opt/tcp_example.pcap' -- --no-flush-rx --forward-mode=readpkt
+
+Output to file:
+
+sudo ./dpdk-testpmd -l 0-1 -n 4 --vdev 'net_pcap0,rx_pcap=/opt/tcp_example.pcap' -- --no-flush-rx --forward-mode=readpkt > output_program.txt

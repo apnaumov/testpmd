@@ -1,0 +1,828 @@
+Set readpkt packet forwarding mode
+Configuring Port 0 (socket 0)
+Port 0: 02:70:63:61:70:00
+Checking link statuses...
+Done
+No commandline core given, start packet forwarding
+readpkt packet forwarding - ports=1 - cores=1 - streams=1 - NUMA support enabled, MP allocation mode: native
+Logical Core 1 (socket 0) forwards packets on 1 streams:
+  RX P=0/Q=0 (socket 0) -> TX P=0/Q=0 (socket 0) peer=02:00:00:00:00:00
+
+  readpkt packet forwarding packets/burst=32
+  nb forwarding cores=1 - nb forwarding ports=1
+  port 0: RX queue number: 1 Tx queue number: 1
+    Rx offloads=0x0 Tx offloads=0x0
+    RX queue: 0
+      RX desc=0 - RX free threshold=0
+      RX threshold registers: pthresh=0 hthresh=0  wthresh=0
+      RX Offloads=0x0
+    TX queue: 0
+      TX desc=0 - TX free threshold=0
+      TX threshold registers: pthresh=0 hthresh=0  wthresh=0
+      TX offloads=0x0 - TX RS bit threshold=0
+Packet number 1:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 52
+	Packet ID: 0x1b63
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd72
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6711
+	Destination port: 2000
+	Sequence number: 3714759466
+	Acknowledgment number: 0
+	Data offset: 0
+	Flags: 0x2
+	Window size: 64240
+	Checksum: 0x1215
+	Urgent pointer: 0
+
+Packet number 2:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 52
+	Packet ID: 0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x28d6
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6711
+	Sequence number: 526373456
+	Acknowledgment number: 3714759467
+	Data offset: 0
+	Flags: 0x12
+	Window size: 64240
+	Checksum: 0xb5d4
+	Urgent pointer: 0
+
+Packet number 3:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1b64
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd7d
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6711
+	Destination port: 2000
+	Sequence number: 3714759467
+	Acknowledgment number: 526373457
+	Data offset: 0
+	Flags: 0x10
+	Window size: 1026
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 4:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 46
+	Packet ID: 0x1b65
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd76
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6711
+	Destination port: 2000
+	Sequence number: 3714759467
+	Acknowledgment number: 526373457
+	Data offset: 0
+	Flags: 0x18
+	Window size: 1026
+	Checksum: 0x120f
+	Urgent pointer: 0
+
+Packet number 5:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x72ab
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0xb636
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6711
+	Sequence number: 526373457
+	Acknowledgment number: 3714759473
+	Data offset: 0
+	Flags: 0x10
+	Window size: 502
+	Checksum: 0xef9b
+	Urgent pointer: 0
+
+Packet number 6:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x72ac
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0xb635
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6711
+	Sequence number: 526373457
+	Acknowledgment number: 3714759473
+	Data offset: 0
+	Flags: 0x11
+	Window size: 502
+	Checksum: 0xef9a
+	Urgent pointer: 0
+
+Packet number 7:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1b69
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd78
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6711
+	Destination port: 2000
+	Sequence number: 3714759473
+	Acknowledgment number: 526373458
+	Data offset: 0
+	Flags: 0x10
+	Window size: 1026
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 8:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1b6a
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd77
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6711
+	Destination port: 2000
+	Sequence number: 3714759473
+	Acknowledgment number: 526373458
+	Data offset: 0
+	Flags: 0x11
+	Window size: 1026
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 9:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x28e2
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6711
+	Sequence number: 526373458
+	Acknowledgment number: 3714759474
+	Data offset: 0
+	Flags: 0x10
+	Window size: 502
+	Checksum: 0xef99
+	Urgent pointer: 0
+
+Packet number 10:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 52
+	Packet ID: 0x1ba6
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd2f
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6712
+	Destination port: 2000
+	Sequence number: 4211666099
+	Acknowledgment number: 0
+	Data offset: 0
+	Flags: 0x2
+	Window size: 64240
+	Checksum: 0x1215
+	Urgent pointer: 0
+
+Packet number 11:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 48
+	Packet ID: 0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x28da
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6712
+	Sequence number: 191135221
+	Acknowledgment number: 4211666100
+	Data offset: 0
+	Flags: 0x12
+	Window size: 64240
+	Checksum: 0xe310
+	Urgent pointer: 0
+
+Packet number 12:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1ba7
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd3a
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6712
+	Destination port: 2000
+	Sequence number: 4211666100
+	Acknowledgment number: 191135222
+	Data offset: 0
+	Flags: 0x10
+	Window size: 64240
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 13:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 46
+	Packet ID: 0x1ba8
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd33
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6712
+	Destination port: 2000
+	Sequence number: 4211666100
+	Acknowledgment number: 191135222
+	Data offset: 0
+	Flags: 0x18
+	Window size: 64240
+	Checksum: 0x120f
+	Urgent pointer: 0
+
+Packet number 14:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x807d
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0xa864
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6712
+	Sequence number: 191135222
+	Acknowledgment number: 4211666106
+	Data offset: 0
+	Flags: 0x10
+	Window size: 64234
+	Checksum: 0xfd5
+	Urgent pointer: 0
+
+Packet number 15:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x807e
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0xa863
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6712
+	Sequence number: 191135222
+	Acknowledgment number: 4211666106
+	Data offset: 0
+	Flags: 0x11
+	Window size: 64234
+	Checksum: 0xfd4
+	Urgent pointer: 0
+
+Packet number 16:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1bac
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd35
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6712
+	Destination port: 2000
+	Sequence number: 4211666106
+	Acknowledgment number: 191135223
+	Data offset: 0
+	Flags: 0x10
+	Window size: 64240
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 17:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1bad
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd34
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6712
+	Destination port: 2000
+	Sequence number: 4211666106
+	Acknowledgment number: 191135223
+	Data offset: 0
+	Flags: 0x11
+	Window size: 64240
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 18:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x28e2
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6712
+	Sequence number: 191135223
+	Acknowledgment number: 4211666107
+	Data offset: 0
+	Flags: 0x10
+	Window size: 64234
+	Checksum: 0xfd3
+	Urgent pointer: 0
+
+Packet number 19:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 52
+	Packet ID: 0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x28d6
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6713
+	Sequence number: 1792075520
+	Acknowledgment number: 2692133711
+	Data offset: 0
+	Flags: 0x12
+	Window size: 64240
+	Checksum: 0x9a81
+	Urgent pointer: 0
+
+Packet number 20:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1be0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xcd01
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6713
+	Destination port: 2000
+	Sequence number: 2692133711
+	Acknowledgment number: 1792075521
+	Data offset: 0
+	Flags: 0x10
+	Window size: 1026
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 21:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 46
+	Packet ID: 0x1be1
+Press enter to exit
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xccfa
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6713
+	Destination port: 2000
+	Sequence number: 2692133711
+	Acknowledgment number: 1792075521
+	Data offset: 0
+	Flags: 0x18
+	Window size: 1026
+	Checksum: 0x120f
+	Urgent pointer: 0
+
+Packet number 22:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0xefdf
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x3902
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6713
+	Sequence number: 1792075521
+	Acknowledgment number: 2692133717
+	Data offset: 0
+	Flags: 0x10
+	Window size: 502
+	Checksum: 0xd448
+	Urgent pointer: 0
+
+Packet number 23:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0xefe0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x3901
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6713
+	Sequence number: 1792075521
+	Acknowledgment number: 2692133717
+	Data offset: 0
+	Flags: 0x11
+	Window size: 502
+	Checksum: 0xd447
+	Urgent pointer: 0
+
+Packet number 24:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1be4
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xccfd
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6713
+	Destination port: 2000
+	Sequence number: 2692133717
+	Acknowledgment number: 1792075522
+	Data offset: 0
+	Flags: 0x10
+	Window size: 1026
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 25:
+
+Ethernet frame:
+	Destination address: 00:0C:29:1C:E3:19
+	Source address: EC:F4:BB:D9:3E:7D
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0x1be6
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 128
+	Protocol: 6
+	Checksum: 0xccfb
+	Source address: 192.168.200.135
+	Destination address: 192.168.200.21
+Tcp datagram:
+	Source port: 6713
+	Destination port: 2000
+	Sequence number: 2692133717
+	Acknowledgment number: 1792075522
+	Data offset: 0
+	Flags: 0x11
+	Window size: 1026
+	Checksum: 0x1209
+	Urgent pointer: 0
+
+Packet number 26:
+
+Ethernet frame:
+	Destination address: EC:F4:BB:D9:3E:7D
+	Source address: 00:0C:29:1C:E3:19
+	Ethernet type: 0x800
+Ip packet:
+	Version: 4
+	Header length: 20
+	TOS: 0
+	Total length: 40
+	Packet ID: 0
+	Flags: 0x2
+	Fragment offset: 0
+	TTL: 64
+	Protocol: 6
+	Checksum: 0x28e2
+	Source address: 192.168.200.21
+	Destination address: 192.168.200.135
+Tcp datagram:
+	Source port: 2000
+	Destination port: 6713
+	Sequence number: 1792075522
+	Acknowledgment number: 2692133718
+	Data offset: 0
+	Flags: 0x10
+	Window size: 502
+	Checksum: 0xd446
+	Urgent pointer: 0
+
+Telling cores to stop...
+Waiting for lcores to finish...
+
+  ---------------------- Forward statistics for port 0  ----------------------
+  RX-packets: 26             RX-dropped: 0             RX-total: 26
+  TX-packets: 0              TX-dropped: 0             TX-total: 0
+  ----------------------------------------------------------------------------
+
+  +++++++++++++++ Accumulated forward statistics for all ports+++++++++++++++
+  RX-packets: 26             RX-dropped: 0             RX-total: 26
+  TX-packets: 0              TX-dropped: 0             TX-total: 0
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Done.
+
+Stopping port 0...
+Stopping ports...
+Done
+
+Shutting down port 0...
+Closing ports...
+Port 0 is closed
+Done
+
+Bye...
